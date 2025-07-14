@@ -60,7 +60,7 @@
   color: #f5f3f3;
 }
 
-/* Offer section style */
+/* Discount section style */
 .offer-section {
   text-align: center;
   margin-top: 50px;
@@ -84,12 +84,14 @@
   margin-bottom: 48px;
 }
 
+/* Party section style */
 .party-section {
   width: 100%;
   margin: 120px auto;
   position: relative;
   border-radius: 16px;
   overflow: hidden;
+  display: inline-block;
 }
 .party-section img {
   width: 100%;
@@ -125,4 +127,37 @@
   font-weight: 700;
   padding-left: 32px;
   text-transform: uppercase;
+}
+
+/* Address section style */
+.address-section {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.address-content {
+  padding: 100px 0;
+  background: linear-gradient(to bottom, #ff000010, #ff000000);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.address-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #070211;
+  margin-bottom: 16px;
+}
+.address-content span {
+  color: #ff0000;
+}
+.address-content button {
+  margin-top: 48px;
+  background-color: #ff0000;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
 }
