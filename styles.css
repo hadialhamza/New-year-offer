@@ -1,0 +1,52 @@
+/* Fonts Class */
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* Universal Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Shared Style */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero section Style */
+.hero-container {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+  border-radius: 16px;
+}
+.hero-container img {
+  display: block;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content p {
+  font-size: 32px;
+  font-weight: 400;
+  color: #e4dddd;
+  margin-bottom: 16px;
+}
+.content h1 {
+  font-size: 72px;
+  font-weight: 900;
+  color: #f5f3f3;
+}
