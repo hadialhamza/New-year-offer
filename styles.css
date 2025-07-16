@@ -226,6 +226,8 @@
 /* Holiday section style */
 .holiday-container {
   text-align: center;
+  position: relative;
+  margin-bottom: 120px;
 }
 .holiday-content-title {
   font-size: 24px;
@@ -248,4 +250,20 @@
   font-size: 20px;
   font-weight: 500;
   color: #07021199;
+}
+.holiday-content2 {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.red-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.holiday-img-3 {
+  margin-right: 50px;
+  margin-bottom: 60px;
 }
