@@ -342,3 +342,53 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Footer section style */
+footer {
+  background-color: #070211;
+  color: white;
+  padding: 70px 20px;
+}
+.footer-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.address,
+.footer-contact span,
+.footer-copyright p,
+button {
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-contact-container {
+  margin-right: 120px;
+}
+.footer-contact img {
+  width: auto;
+}
+.footer-contact {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.footer-social {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-copyright button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
